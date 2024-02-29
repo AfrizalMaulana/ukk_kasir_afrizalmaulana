@@ -42,11 +42,11 @@ if(isset($_SESSION['level'])){
                 }
                 ?>
                 <form action="cek_login.php" method="post">
-                    <div class="from-group mb-4">
+                    <div class="form-group mb-4">
                         <label for="" class="form-label">Username</label>
                         <input type="text" autofocus name="username" class="form-control form-control-lg" placeholder="Masukkan Username"autocomplete="off">
                     </div>
-                    <div class="from-group mb-3">
+                    <div class="form-group mb-3">
                         <label for="" class="form-label">Password</label>
                         <input type="password" name="password" class="form-control form-control-lg" placeholder="Masukkan Password">
                     </div>
